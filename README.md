@@ -71,46 +71,14 @@ $git lfs install
 
 3. ActivateD git LFS IN YOUR REPO.
 
-OR YOU CAN USE git LFS by ##VS code
+OR YOU CAN USE git LFS by VS code
 
  ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-46-02.png)
-
-
-2. Then, Here's how to create a Mingpt model.
+ ##ANOTHER WAY:
+1. select the file types you'd like Git LFS to manage
+ 
 ```python
-from mingpt.model import GPT, GPTConfig
-mconf = GPTConfig(train_dataset.vocab_size, train_dataset.block_size,
-                  n_layer=8, n_head=8, n_embd=128) #128
-model = GPT(mconf)
+$git lfs install
 ```
-3. After that, initialize a trainer instance by using:
-
-```python
-from mingpt.trainer import Trainer, TrainerConfig
-
-tconf = TrainerConfig(max_epochs=1, batch_size=128, learning_rate=6e-4,
-                      lr_decay=True, warmup_tokens=128*20, final_tokens=2*len(train_dataset)*block_size,#   ckpt_path='mingpt_persona_v1.pt',
-                      num_workers=8)
-trainer = Trainer(model, train_dataset, None, tconf)
-trainer.train()
-```
-4. Testing a text input by using:
-
-```python
-from mingpt.utils import sample
-
-context = "i love to" #sample input 
-x = torch.tensor([train_dataset.stoi[s] for s in context], dtype=torch.long)[None,...].to(trainer.device)
-y = sample(model, x, 500, temperature=1.0, sample=True, top_k=10)[0]
-completion = '='.join([train_dataset.itos[int(i)] for i in y])
-print(completion)
-```
->here is the output
-```
-i love to dance.', ' i am single. i enjoy nature. my favorite food is salad. my mother was a teacher.', ' i like to drust. i like to eat meat. i like to eat. i want to feel pretty.', ' my favorite band is nightfish. i work from home. i have a cat as a pet. i love reading. i love comics.', ' i enjoy home cooked meals. my favorite music genre is pop. my favorite color is blue. my favorite tv show is game of thrones. my favorite music genre is pop.', ' i love country. i enjoy reading. i love dogs. i am a ru
-```
-See [`QA_minGPT.ipynb`](https://github.com/yeahiasarker/gpt-dialogue/blob/main/examples/QA_mingpt.ipynb) for a more specific illustration.
-
-
-
+3. 
 
