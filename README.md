@@ -71,9 +71,9 @@ $git lfs install
 
 3. ActivateD git LFS IN YOUR REPO.
 
-OR YOU CAN USE git LFS by VS code
+OR YOU CAN USE git LFS by ##VS code
 
- ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-29-32.png)
+ ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-46-02.png)
 
 
 2. Then, Here's how to create a Mingpt model.
