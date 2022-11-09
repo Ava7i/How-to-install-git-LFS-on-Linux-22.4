@@ -1,5 +1,5 @@
 
-#STEP 0. MAKE SURE YOU HAVE GITHUB CLIENT INSTALLED
+
 # How to install git LFS on Linux 22.4
 
 | Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/)]
@@ -23,9 +23,9 @@ Other than, say, for a plain text file, where only the differences to the file a
 
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/lfs.gif)
 
-## Installing / Getting started
+##  Getting started
 
-1. Clone the repo and navigate to the directory
+Download the file for linux. Here is the link(https://git-lfs.github.com/)
 
 ```python
 git clone https://github.com/yeahiasarker/gpt-dialogue.git
