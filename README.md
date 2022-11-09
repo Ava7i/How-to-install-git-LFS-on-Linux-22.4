@@ -11,7 +11,7 @@ Before installing git LFS you need to know what is git LFS and why should we ins
 Okay for understanting need of git LFS, let's assume the story oin below-
 
 
-Suppose you create a project that contains large files or data.But you want to upload it on git. Unfortunately you cannot upload the large files on github. While you try to uploading the file on git it will show a error. I upload a project that contains a huge dataset with 34k text. But I could not upload the file on git. It shows error which is depict in below image-
+Suppose you create a project that contains large files or data.But you want to upload it on git. Unfortunately you cannot upload the large files on github. While you try to uploading the file on git it will show a error. 100MB is the maximum file size for git and github. A warning message is displayed for files larger than 50MB, yet they can still be pushed through.I upload a project that contains a huge dataset with 34k text. But I could not upload the file on git. It shows error which is depict in below image-
 
 
 ## Installing / Getting started
