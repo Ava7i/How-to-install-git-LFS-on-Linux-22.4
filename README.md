@@ -7,9 +7,9 @@
 
 This repository guides you to install git LFS on your pc
 ## Usage
-Before installing git LFS you need to know what is git LFS and why should we install git LFS on our pc. 
+Before installing git LFS you need to know what is **git LFS **and why should we install git LFS on our pc. 
 Okay for understanting need of git LFS, let's assume the story oin below-
-|--------------|----------------|
+
 
 Suppose you create a project that contains large files or data.But you want to upload it on git. Unfortunately you cannot upload the large files on github. While you try to uploading the file on git it will show a error. I upload a project that contains a huge dataset with 34k text. But I could not upload the file on git. It shows error which is depict in below image-
 
