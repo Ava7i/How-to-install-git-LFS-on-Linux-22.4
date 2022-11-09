@@ -39,6 +39,8 @@ $git --version
 
 ```
 If you don't have git on your pc you have to install the git first.
+
+
 2. Install the required library packages named `requirements.txt` using below command
 
 ```python
