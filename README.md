@@ -1,12 +1,18 @@
 
 #STEP 0. MAKE SURE YOU HAVE GITHUB CLIENT INSTALLED
 # How to install git LFS on Linux 22.4
-> Experimental implementation of GPT for dialogue conversation
 
 | Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/) [![anaconda](https://img.shields.io/badge/anaconda-v4.12.0-blue)](https://anaconda.org/anaconda/plotly/files?version=4.12.0) [![Docker](https://img.shields.io/badge/Docker-V20.10.18-green)](https://www.docker.com/)
 |--------------|----------------|
 
-This repository generates text using machine learning using a limited set of input words.
+This repository guides you to install git LFS on your pc
+## Usage
+Before installing git LFS you need to know what is git LFS and why should we install git LFS on our pc. 
+Okay for understanting need of git LFS, let's assume the story oin below-
+|--------------|----------------|
+
+Suppose you create a project that contains large files or data.But you want to upload it on git. Unfortunately you cannot upload the large files on github. While you try to uploading the file on git it will show a error. I upload a project that contains a huge dataset with 34k text. But I could not upload the file on git. It shows error which is depict in below image-
+
 
 ## Installing / Getting started
 
