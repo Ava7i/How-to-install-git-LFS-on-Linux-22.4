@@ -2,7 +2,7 @@
 #STEP 0. MAKE SURE YOU HAVE GITHUB CLIENT INSTALLED
 # How to install git LFS on Linux 22.4
 
-| Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/) [![anaconda]
+| Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/)]
 |--------------|----------------|
 
 This repository guides you to install git LFS on your pc
