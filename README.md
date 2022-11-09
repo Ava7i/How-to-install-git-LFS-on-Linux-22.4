@@ -74,7 +74,10 @@ $git lfs install
 OR YOU CAN USE git LFS by VS code
 
  ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-46-02.png)
- ##ANOTHER WAY:
+ 
+ 
+ 
+ ## ANOTHER WAY:
 1. select the file types you'd like Git LFS to manage (Suppose the file extension is .py)
  
 ```python
