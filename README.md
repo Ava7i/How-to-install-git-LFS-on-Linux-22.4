@@ -30,11 +30,12 @@ Download the file for linux. Here is the link(https://git-lfs.github.com/) or yo
 
 
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2015-29-01.png)
+Then check the version of your git
 ```python
-git clone https://github.com/yeahiasarker/gpt-dialogue.git
-cd gpt-dialogue
-```
+$git --version
 
+```
+If you don't have git on your pc you have to install the git first.
 2. Install the required library packages named `requirements.txt` using below command
 
 ```python
