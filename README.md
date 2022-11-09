@@ -47,21 +47,21 @@ If you don't have git on your pc you have to install the git first.
 $cd ~/Downloads
 $tar -xf git-lfs-linux-amd64-v2.9.0.tar.gz
 ```
-3. Then type
+4. Then type
 
 ```python
 $chmod 755 install.sh
 $sudo ./install.sh
 ```
 
-4. Then install
+5. Then install
 
 ```python
 $git lfs install
 ```
 
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-20-19.png)
-
+ ## SUCCESS!!
 ## How can you use git LFS in your repo
 1. Go to settings on your repository
 2. Then click the button 
@@ -75,10 +75,26 @@ OR YOU CAN USE git LFS by VS code
 
  ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-46-02.png)
  ##ANOTHER WAY:
-1. select the file types you'd like Git LFS to manage
+1. select the file types you'd like Git LFS to manage (Suppose the file extension is .py)
  
 ```python
-$git lfs install
+git lfs track "*.py"
 ```
-3. 
+
+2. select the file types you'd like Git LFS to manage (Suppose the file extension is .py)
+ 
+```python
+git add .gitattributes
+vi .gitattributes
+
+
+```
+
+3. Now just push and commit your repo
+```python
+git add ubattery_dep.py
+git commit -am "Add isotopic composition after depletion"
+git push origin master
+
+```
 
