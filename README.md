@@ -16,12 +16,12 @@ Suppose you create a project that contains large files or data.But you want to u
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2012-39-45.png)
 To solve this problem we need git LFS. By using git LFS we can easily upload the large files.
 
-## What is git LFS
+## What is git LFS 🚀
 An addition to Git, Git LFS is an open-source project. The objective is to work with huge files and binary files into your repository more effectively.
 When large files are modified, your repository's history will expand;Fetching and pulling will take longer for large files;
 Other than, say, for a plain text file, where only the differences to the file are preserved, an update of a binary file will be viewed by Git as a complete file change. Your Git repository will expand in size if you often modify binary files. Git commands will start to run more slowly after a while due to your repository's expanding size.
 
-<cente4r>![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/lfs.gif)</center>
+![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/lfs.gif)
 
 ## Installing / Getting started
 
