@@ -7,7 +7,7 @@
 
 This repository guides you to install git LFS on your pc
 ## Usage
-Before installing git LFS you need to know what is **git LFS **and why should we install git LFS on our pc. 
+Before installing git LFS you need to know what is ##git LFS and why should we install git LFS on our pc. 
 Okay for understanting need of git LFS, let's assume the story oin below-
 
 
