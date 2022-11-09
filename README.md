@@ -30,6 +30,9 @@ Download the file for linux. Here is the link(https://git-lfs.github.com/) or yo
 
 
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2015-29-01.png)
+
+
+
 Then check the version of your git
 ```python
 $git --version
