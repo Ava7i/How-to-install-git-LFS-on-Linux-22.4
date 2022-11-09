@@ -2,7 +2,7 @@
 #STEP 0. MAKE SURE YOU HAVE GITHUB CLIENT INSTALLED
 # How to install git LFS on Linux 22.4
 
-| Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/) [![anaconda](https://img.shields.io/badge/anaconda-v4.12.0-blue)](https://anaconda.org/anaconda/plotly/files?version=4.12.0) [![Docker](https://img.shields.io/badge/Docker-V20.10.18-green)](https://www.docker.com/)
+| Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/) [![anaconda]
 |--------------|----------------|
 
 This repository guides you to install git LFS on your pc
@@ -14,8 +14,13 @@ Okay for understanting need of git LFS, let's assume the story oin below-
 Suppose you create a project that contains large files or data.But you want to upload it on git. Unfortunately you cannot upload the large files on github. While you try to uploading the file on git it will show a error. 100MB is the maximum file size for git and github. A warning message is displayed for files larger than 50MB, yet they can still be pushed through.I upload a project that contains a huge dataset with 34k text. But I could not upload the file on git. It shows error which is depict in below image-
 
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2012-39-45.png)
+To solve this problem we need git LFS. By using git LFS we can easily upload the large files.
 
-
+## What is git LFS
+An addition to Git, Git LFS is an open-source project. The objective is to work with huge files and binary files into your repository more effectively.
+-> When large files are modified, your repository's history will expand;
+-> Fetching and pulling will take longer for large files;
+-> Other than, say, for a plain text file, where only the differences to the file are preserved, an update of a binary file will be viewed by Git as a complete file change. Your Git repository will expand in size if you often modify binary files. Git commands will start to run more slowly after a while due to your repository's expanding size.
 ## Installing / Getting started
 
 1. Clone the repo and navigate to the directory
