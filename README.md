@@ -64,9 +64,12 @@ $git lfs install
 
 ## How can you use git LFS in your repo
 1. Go to settings on your repository
-2. Then click the button ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-29-32.png)
+2. Then click the button 
+ 
+ 
+ ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-29-32.png)
 
-4. ActivateD git LFS IN YOUR REPO.
+3. ActivateD git LFS IN YOUR REPO.
 
 ```python
 python downloader.py 
