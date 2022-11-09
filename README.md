@@ -25,7 +25,7 @@ Other than, say, for a plain text file, where only the differences to the file a
 
 ##  Getting started
 
-Download the file for linux. Here is the link(https://git-lfs.github.com/) or you can check this link for more information(https://github.com/git-lfs/git-lfs/releases)
+1. Download the file for linux. Here is the link(https://git-lfs.github.com/) or you can check this link for more information(https://github.com/git-lfs/git-lfs/releases)
 
 
 
@@ -33,7 +33,7 @@ Download the file for linux. Here is the link(https://git-lfs.github.com/) or yo
 
 
 
-Then check the version of your git
+2. Then check the version of your git
 ```python
 $git --version
 
@@ -41,10 +41,23 @@ $git --version
 If you don't have git on your pc you have to install the git first.
 
 
-2. Install the required library packages named `requirements.txt` using below command
+3. Then unzip the downloaded file using below command
 
 ```python
-pip install -r requirements.txt
+$cd ~/Downloads
+$tar -xf git-lfs-linux-amd64-v2.9.0.tar.gz
+```
+3. Then type
+
+```python
+$chmod 755 install.sh
+$sudo ./install.sh
+```
+
+4. Then install
+
+```python
+$git lfs install
 ```
 
 ## Usage
