@@ -62,8 +62,11 @@ $git lfs install
 
 ![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/Screenshot%20from%202022-11-09%2016-20-19.png)
 
-## Usage
-1. We have to first download/load the dataset using [`downloader.py`](https://github.com/yeahiasarker/gpt-dialogue/blob/main/downloader.py) by running this command in terminal:
+## How can you use git LFS in your repo
+1. Go to settings on your repository
+2. Then click the button 
+
+4. 
 
 ```python
 python downloader.py 
