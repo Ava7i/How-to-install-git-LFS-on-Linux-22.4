@@ -1,7 +1,6 @@
 
 #STEP 0. MAKE SURE YOU HAVE GITHUB CLIENT INSTALLED
-# GPT-Dialogue
-
+# How to install git LFS on Linux 22.4
 > Experimental implementation of GPT for dialogue conversation
 
 | Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-green)](https://www.python.org/downloads/release/python-390/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2020.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/20.04/) [![anaconda](https://img.shields.io/badge/anaconda-v4.12.0-blue)](https://anaconda.org/anaconda/plotly/files?version=4.12.0) [![Docker](https://img.shields.io/badge/Docker-V20.10.18-green)](https://www.docker.com/)
