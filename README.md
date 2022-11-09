@@ -25,8 +25,8 @@ Other than, say, for a plain text file, where only the differences to the file a
 
 ##  Getting started
 
-Download the file for linux. Here is the link(https://git-lfs.github.com/)
-
+Download the file for linux. Here is the link(https://git-lfs.github.com/) or you can check this link for more information(https://github.com/git-lfs/git-lfs/releases)
+![push output](https://github.com/Ava7i/How-to-install-git-LFS-on-Linux-22.4/blob/main/Img/lfs.gif)
 ```python
 git clone https://github.com/yeahiasarker/gpt-dialogue.git
 cd gpt-dialogue
